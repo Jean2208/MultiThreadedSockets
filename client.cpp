@@ -199,7 +199,7 @@ int main(int argc, char *argv[])
    strcpy(symbols, alphabet.c_str());
 
    
-	vector<double> probabilities = CalcProbabilities(str); //calculate the probability of each character.
+   vector<double> probabilities = CalcProbabilities(str); //calculate the probability of each character.
    vector<double> fx = CalcFx(probabilities);             //calculate fx using the Shannon–Fano–Elias coding algorithm formula. 
 
 
