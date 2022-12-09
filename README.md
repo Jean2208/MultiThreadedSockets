@@ -15,6 +15,7 @@ The input has a single line with the message (string or char array).
 Given the previous input, the expected output is:  
 
 *SHANNON-FANO-ELIAS Codes:*\
+
 *Symbol A, Code: 001*\
 *Symbol B, Code: 011*\
 *Symbol C, Code: 1010*\
