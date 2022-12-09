@@ -19,7 +19,7 @@ Given the previous input, the expected output is:
 *Symbol B, Code: 011*\
 *Symbol C, Code: 1010*\
 *Symbol D, Code: 1101*\
-*Symbol E, Code: 11110*\
+*Symbol E, Code: 11110*
 
 ## How do I use the code?
 This program doesn't execute using simple (normal) compile command because this is a [multithreaded program](https://www.techtarget.com/whatis/definition/multithreading#:~:text=Multithreading%20is%20the%20ability%20of,requests%20from%20the%20same%20user.) using **pthread.h** library. We can use **g++** and **-lpthread** for compiling our C++ code (Linux OS preferred).
