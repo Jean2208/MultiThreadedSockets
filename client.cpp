@@ -187,11 +187,11 @@ int main(int argc, char *argv[])
    sort(str.begin(), str.end()); //sorting the string
     
    /*making the string a char[]*/
-	char arr[str.length() + 1]; 
-	strcpy(arr, str.c_str());
+   char arr[str.length() + 1]; 
+   strcpy(arr, str.c_str());
 
 	/*deleting duplicates from sorted char/string*/
-	int n = sizeof(arr) / sizeof(arr[0]);
+   int n = sizeof(arr) / sizeof(arr[0]);
    string alphabet = removeDuplicate(arr, n); 
 
    /*storing the symbols inside array*/
@@ -234,7 +234,7 @@ int main(int argc, char *argv[])
 
    for (int i=0; i < NUMBER_OF_THREADS; i++) 
    {
-      cout << "Symbol " << symbols[i] << ", Code:" << arg[i].result << endl;
+      cout << "Symbol " << symbols[i] << ", Code: " << arg[i].result << endl;
    }
 
 
