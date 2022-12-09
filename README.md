@@ -43,7 +43,7 @@ And for the server:
 
     chmod +x server
 
-All set. We can now run our programs, make sure the server is running before executing the client:
+All set. We can now run our programs. Make sure the server is running before executing the client:
 
     ./server <port_number>
 
