@@ -23,7 +23,7 @@ Given the previous input, the expected output is:
 *Symbol E, Code: 11110*
 
 ## How do I use the code?
-This program doesn't execute using simple (normal) compile command because this is a [multithreaded program](https://www.techtarget.com/whatis/definition/multithreading#:~:text=Multithreading%20is%20the%20ability%20of,requests%20from%20the%20same%20user.) using **pthread.h** library. We can use **g++** and **-lpthread** for compiling our C++ code (Linux OS preferred).
+This program doesn't execute using simple (normal) compile commands because this is a [multithreaded program](https://www.techtarget.com/whatis/definition/multithreading#:~:text=Multithreading%20is%20the%20ability%20of,requests%20from%20the%20same%20user.) using **pthread.h** library. We can use **g++** and **-lpthread** for compiling our C++ code (Linux OS preferred).
 
 For the client file:
 
@@ -33,7 +33,7 @@ And for the server:
 
     g++ server.cpp -o server -lpthread
 
-After having both our programs compiled lets give these two executable permissions.
+After having both our programs compiled let's give these two executable permissions.
 
 For the client:
 
